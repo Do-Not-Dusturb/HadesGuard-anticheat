@@ -1,0 +1,28 @@
+name: HadesGuard
+version: '${project.version}'
+main: dev.HadesGuard.HadesGuard
+api-version: '1.21'
+description: Advanced Anticheat for Minecraft 1.21.x with Geyser support
+authors: [Do_Not_Dusturb]
+
+softdepend:
+  - floodgate
+  - Geyser-Spigot
+
+commands:
+  HadesGuard:
+    description: HadesGuard main command
+    aliases: [vb, anticheat]
+    permission: HadesGuard.admin
+    usage: /HadesGuard
+
+permissions:
+  HadesGuard.admin:
+    description: access to HadesGuard admin commands and alerts
+    default: op
+  HadesGuard.alerts:
+    description: receive anticheat alerts
+    default: op
+  HadesGuard.bypass:
+    description: bypass all checks
+    default: false

@@ -1,0 +1,95 @@
+general:
+  debug: false
+  prefix: "&8[&bHadesGuard&8] "
+
+punishments:
+  alert:
+    enabled: true
+    threshold: 5
+    cooldown-ms: 3000
+  kick:
+    enabled: true
+    threshold: 20
+    message: "&cyou have been kicked by HadesGuard\n&7reason &f{check}"
+  ban:
+    enabled: true
+    threshold: 50
+    duration: "7d"
+    message: "&cyou have been banned by HadesGuard\n&7reason &f{check}\n&7duration &f{duration}"
+
+checks:
+
+  speed:
+    enabled: true
+    max-speed-multiplier: 1.35
+    bedrock-multiplier: 1.6
+    buffer: 10
+    bedrock-exempt: false
+
+  flight:
+    enabled: true
+    max-air-ticks: 12
+    buffer: 5
+    bedrock-exempt: false
+
+  nofall:
+    enabled: true
+    min-fall-distance: 3.0
+    buffer: 3
+    bedrock-exempt: true
+
+  teleport:
+    enabled: true
+    max-distance-per-tick: 10.0
+    buffer: 3
+    bedrock-exempt: false
+
+  velocity:
+    enabled: true
+    buffer: 4
+    bedrock-exempt: false
+
+  timer:
+    enabled: true
+    buffer: 10
+    bedrock-exempt: false
+
+  reach:
+    enabled: true
+    max-reach: 3.2
+    buffer: 5
+    bedrock-exempt: true
+
+  killaura:
+    enabled: true
+    max-hits-per-second: 20
+    yaw-check: true
+    multi-target-check: true
+    buffer: 8
+    bedrock-exempt: false
+
+  scaffold:
+    enabled: true
+    max-place-speed: 8
+    buffer: 6
+    bedrock-exempt: true
+
+  airplace:
+    enabled: true
+    buffer: 4
+    bedrock-exempt: true
+
+  hunger:
+    enabled: true
+    buffer: 5
+    bedrock-exempt: false
+
+  noslow:
+    enabled: true
+    buffer: 5
+    bedrock-exempt: false
+
+  freecam:
+    enabled: true
+    buffer: 4
+    bedrock-exempt: false
