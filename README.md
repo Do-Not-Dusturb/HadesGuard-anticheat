@@ -16,7 +16,7 @@ A comprehensive anticheat for **Paper 1.21.x** with Geyser/Floodgate (Bedrock) s
 | Scaffold | Misc | Detects bridging too fast at impossible angles |
 | AirPlace | Misc | Detects placing blocks against air |
 | Hunger/NoSlowdown | Misc | Detects moving at full speed while eating/blocking |
-
+### More included that is not listed here
 ## Geyser / Floodgate Support
 
 Install **Floodgate** on your server alongside Geyser. HadesGuard will automatically detect Bedrock players
